@@ -5,6 +5,10 @@
 
 }
 
+#moto{
+  margin-top: 100px;
+}
+
 .blue{
   background-color: deepskyblue;
 }
@@ -15,6 +19,10 @@
   content: center-content
 }
 
+#emirates{
+  color: brown;
+  margin-top: 50px;
+}
 .navcon{
   color: white;
 }
