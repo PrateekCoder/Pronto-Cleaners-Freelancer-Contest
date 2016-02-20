@@ -9,8 +9,11 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <!--CSS Link -->
     <link rel="stylesheet" href="css/styles.css">
+    <!--Google API Link -->
+    <!--<link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>-->
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,12 +34,12 @@
                           <span class="icon-bar"></span>
                       </button>
                       <a class="navbar-brand" href="#"><img class="img-responsive logo" src="images/logo2.png" alt="" width=100 /></a>
+                      <a class="navbar-brand" href="#"><img class="img-responsive emirates-logo" src="images/emirates1.gif" alt="" width=100 /></a>
                   </div>
                   <div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                           <ul class="nav navbar-nav navbar-right">
                               <li><a href="#home"><p class="navcon">HOME</p></a></li>
-                              <li><a href="#about_us"><p class="navcon">ABOUT US</p></a></li>
                               <li><a href="#pickup"><p class="navcon">PLAN A PICK-UP</p></a></li>
                               <li><a href="#pricelist"><p class="navcon">PRICE LIST</p></a></li>
                               <li><a href="#contact"><p class="navcon">CONTACT US</p></a></li>
@@ -50,34 +53,48 @@
       <br><br>
       <div class="container-fluid">
           <div class="row" id="home">
-              <img class="img-responsive" src="images/banner1.jpg" alt="" height="700" />
+              <img class="img-responsive" src="images/banner2.jpg" alt="" height="700" />
           </div>
-      </div>
-      <!--ABOUT US -->
-      <div class="container" id="about_us">
-          <div class="row">
-              <h1 class="header">ABOUT US</h1><br>
-          </div>
+      </div><br><br>
+      <div class="container">
           <div class="row">
               <div class="col-xs-6">
-                  <h1 class="header">Pronto Cleaners: Paper-less, hassle-free, pocket-friendly. Your Personalized Laundndry Solution.</h1>
+                  <h1 class="header" id="moto">Pronto Cleaners: Paper-less, hassle-free, pocket-friendly. Your Personalized Laundndry Solution.</h1>
               </div>
               <div class="col-xs-6">
                   <img class="img-responsive" src="images/LaundryApp1.jpg" alt="Laundry App" />
               </div>
           </div>
           <div class="row">
-              <p>
-                Pronto Cleaners believe that essential, everyday services should be provided in a fully personalized, painless way, to ensure that the customers have the time and peace of mind to focus on their primary life objectives and the pursuit of happiness.
-                As the most innovative dry cleaners in Dubai, Pronto Cleaners offers a paper-less laundry solution. Our sales staff use handheld tablets to take your orders, and our invoices are texted and/or e-mailed to you.
-              </p>
-              <br>
-              <p>
-                Our digital approach and complete e-solution not only help us keep track of our customers' unique requirements and preferences, but also facilitate procedural improvements and service efficiency. The improved efficiency leads to a reduction in costs, which we pass on to our customers in the form of highly competitive and pocket-friendly <a href="#pricelist">prices</a>.
-              </p>
+              <div class="col-sm-12">
+                <p id="font">
+                  Pronto Cleaners believe that essential, everyday services should be provided in a fully personalized, painless way, to ensure that the customers have the time and peace of mind to focus on their primary life objectives and the pursuit of happiness.
+                  As the most innovative dry cleaners in Dubai, Pronto Cleaners offers a paper-less laundry solution. Our sales staff use handheld tablets to take your orders, and our invoices are texted and/or e-mailed to you.
+                </p>
+                <br>
+                <p id="font">
+                  Our digital approach and complete e-solution not only help us keep track of our customers' unique requirements and preferences, but also facilitate procedural improvements and service efficiency. The improved efficiency leads to a reduction in costs, which we pass on to our customers in the form of highly competitive and pocket-friendly <a href="#pricelist">prices</a>.
+                </p>
+              </div>
+          </div>
+      </div><br>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-8">
+                  <h3 id="emirates">
+                    We are partners with Linencraft - a division of Emirates Flight Catering Co. LLC. Linencraft is an ultra-modern, state-of-the-art
+                    industrial laundry facility. The meticulous attention to detail combined with a professionally-trained team ensure that service and quality
+                    standards are of exceptional and unrivaled excellence.
+                  </h3>
+              </div>
+              <div class="col-sm-4">
+                  <img class="img-responsive img-thumbnail" src="images/emirates.png" alt="Emirates" />
+              </div>
           </div>
       </div>
       <br><br>
+      <!--ABOUT US -->
+
       <!--PICK-UP LOCATION -->
       <div class="container" id="pickup">
           <div class="row">
@@ -125,31 +142,26 @@
           <div class="row">
               <h1 class="header">PRICE LIST</h1><br>
           </div>
-          <div class="row">
-            <div class="table-responsive table-bordered">
-                <table class="table">
-                    <thead>
-                        <tr class="blue">
-                            <th class="navcon">Items</th>
-                            <th class="navcon">Cleaning & Pressing</th>
-                            <th class="navcon">Pressing Only</th>
-                        </tr>
-                    </thead>
+          <div class="container">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                  <thead>
+                      <tr class="blue">
+                          <th class="navcon col-xs-5">Items</th>
+                          <th class="navcon col-xs-4">Cleaning & Pressing</th>
+                          <th class="navcon col-xs-3">Pressing Only</th>
+                      </tr>
+                  </thead>
                     <tbody>
                       <tr>
-                          <td>Shirts/Blouses</td>
-                          <td>10</td>
+                          <td>Shirts/Tee-Shirts/Blouses</td>
+                          <td>8</td>
                           <td>5</td>
                       </tr>
                       <tr>
                           <td>Trousers/Skirts</td>
                           <td>10</td>
                           <td>5</td>
-                      </tr>
-                      <tr>
-                          <td>Tee-Shirts</td>
-                          <td>5</td>
-                          <td>3</td>
                       </tr>
                       <tr>
                           <td>Shawls/Wraps</td>
@@ -175,40 +187,72 @@
                           <td>Inner-wear/Swimwear</td>
                           <td>5</td>
                           <td>3</td>
-                      </tr>
-                      <tr>
-                          <td>Bedspread/Tablecloth/Curtains</td>
-                          <td>25</td>
-                          <td>10</td>
-                      </tr>
-                      <tr>
-                          <td>Body-Length Outfitst:<br>
-                          Kandurah/Abaya<br>
-                          Long Coats<br>
-                          Saree/Sherwani<br>
-                          Bathrobe<br>
-                          coveralls<br>
-                          </td>
-                          <td>20</td>
-                          <td>10</td>
-                      </tr>
-                      <tr>
-                          <td>Accessories:<br>
-                          Towel<br>
-                          Handkerchief<br>
-                          Muffler/Scarf<br>
-                          Hat/Gloves<br>
-                          Tie/Bow Ties<br>
-                          </td>
-                          <td>5</td>
-                          <td>3</td>
-                      </tr>
-
+                       </tr>
                     </tbody>
                 </table>
             </div>
-          </div>
-      </div>
+          </div><br>
+          <div class="container">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <tbody>
+                      <tr>
+                          <td class="col-xs-5">Bedspread/Quilts/Tablecloth/Curtains</td>
+                          <td class="col-xs-4">25</td>
+                          <td class="col-xs-3">10</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div><br>
+          <div class="container">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <tbody>
+                      <tr>
+                          <td class="col-xs-5">Body-Length Outfits:</td>
+                          <td class="col-xs-4">20</td>
+                          <td class="col-xs-3">10</td>
+                      </tr>
+                      <tr>
+                          <td>
+                            (Long Coats, Kandurah, Abaya, Ladies' dress, Bathrobe, Coveralls, Saree, Sherwani, etc. )
+                          </td>
+                          <td>
+
+                          </td>
+                          <td>
+
+                          </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div><br>
+          <div class="container">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <tbody>
+                      <tr>
+                          <td class="col-xs-5">Accessories:</td>
+                          <td class="col-xs-4">5</td>
+                          <td class="col-xs-3">3</td>
+                      </tr>
+                      <tr>
+                          <td>
+                            (Towel, Handkerchief, Muffler, Scarf, Ghutrah, Agal, Tie, Shorts, Socks, Apron, Babywear)
+                          </td>
+                          <td>
+
+                          </td>
+                          <td>
+
+                          </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div><br>
       <br><br>
       <!--CONTACT US -->
       <div class="container">
