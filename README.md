@@ -1,13 +1,16 @@
 #WINNER!!!
-![alt tag](http://i64.tinypic.com/29dz8df.png)
+![alt tag](http://s7.postimg.org/wwa7h9823/winner.png)
 
-###This was my sumission:
+##Link to my sumission:
 http://prateekcoder.github.io/Pronto-Cleaners-Freelancer-Contest/
 
-###Snap:
+##Feedback by Contest Holder:
+ ![alt](http://s11.postimg.org/gmh8cmmyr/feedback1.png)
+
+##Snap:
 ![alt tag](http://i67.tinypic.com/2z8x05y.png)
 
-#Pronto Cleaners
+##Pronto Cleaners
 
 ##Contest Brief
 
